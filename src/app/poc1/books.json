@@ -1,0 +1,46 @@
+[
+    {
+        "BookId": 1,
+        "BookName": "Meditations",
+        "AuthorName": "Marcus Aurelius",
+        "Publisher": "Penguin",
+        "PublishDate": "05-07-2018",
+        "BookPrice": 120.90,
+        "BookCount": 120,
+        "Availability": true,
+        "Rating": 1
+    },
+    {
+        "BookId": 2,
+        "BookName": "Tipping Point",
+        "AuthorName": "Malcom Gladwel",
+        "Publisher": "Prime",
+        "PublishDate": "05-07-2018",
+        "BookPrice": 420.90,
+        "BookCount": 20,
+        "Availability": true,
+        "Rating": 3.5
+    },
+    {
+        "BookId": 3,
+        "BookName": "Sapiens",
+        "AuthorName": "Yuval Noah Harari",
+        "Publisher": "Prime",
+        "PublishDate": "05-07-2018",
+        "BookPrice": 420.90,
+        "BookCount": 20,
+        "Availability": true,
+        "Rating": 2
+    },
+    {
+        "BookId": 4,
+        "BookName": "Elon Musk",
+        "AuthorName": "Elon Musk",
+        "Publisher": "EMS",
+        "PublishDate": "05-07-2018",    
+        "BookPrice": 420.90,
+        "BookCount": 20,
+        "Availability": true,
+        "Rating": 3
+    }
+]

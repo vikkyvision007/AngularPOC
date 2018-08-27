@@ -1,0 +1,9 @@
+.bg-dark.navbar-dark {
+    background: #333 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}

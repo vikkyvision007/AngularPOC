@@ -1,0 +1,30 @@
+<div class="pheader-wrapper">
+  <h3 class="pheader">Drag-Drop and Resizable POC</h3>
+<button class="add-item-btn btn btn-outline-primary btn-sm" pButton icon="pi pi-info-circle" (click)="showDialog()" label="Show">Add Book</button>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="drag-boundary">
+      <kendo-sortable [data]="cardList" [navigatable]="true" [animation]="true">
+        <ng-template let-item="item">
+          <div draggable="true" ngResizable class="drag-block">
+            
+            <div class="cdesc">
+              <p><i class="far fa-address-book"></i>
+                {{item.AuthorName}}
+              </p>
+              <p><i class="fas fa-dollar-sign"></i>
+              {{item.BookPrice}}
+              </p>
+              <p><i class="fas fa-book"></i>
+              {{item.Publisher}}
+              </p>
+              <p>{{item.Rating}}</p>
+              <p>{{item.BookCount}}</p>
+            </div>
+          </div>
+        </ng-template>
+      </kendo-sortable>
+    </div>
+  </div>
+</div>

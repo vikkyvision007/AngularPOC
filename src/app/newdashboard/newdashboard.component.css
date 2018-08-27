@@ -1,0 +1,41 @@
+.card {
+    width: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+.cdesc {
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+}
+.cdesc p {
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.cheader {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0273d4), to(#2595f5));
+    background: -webkit-linear-gradient(#0273d4, #2595f5);
+    background: -o-linear-gradient(#0273d4, #2595f5);
+    background: linear-gradient(#0273d4, #2595f5);
+    color: #fff;
+    cursor: move;
+    padding: 12px;
+}
+.cdesc i {
+    margin-right: 10px;
+}
+.card-block {
+    padding: 1em;
+}
+.drag-boundary {
+    height: auto;
+    min-height: 100vh;
+    background: #ececec;
+}

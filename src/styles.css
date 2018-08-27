@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+.ng-sidebar {
+    background: #efefef;
+    width: 13rem;
+}
+.ui-panelmenu span.ui-menuitem-icon {
+    float: right;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.ng-sidebar--left {
+    border-right: 1px solid #ececec;
+    width: auto;
+}
+span.ui-menuitem-text {
+    font-size: 14px;
+    max-width: 71%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: sub;
+}
+.ui-panelmenu .ui-panelmenu-content .ui-menuitem-link {
+    padding-left: 24px;
+}
+.ui-panelmenu .ui-panelmenu-header-link:active,
+.ui-panelmenu .ui-panelmenu-header-link:focus
+ {
+    outline: none;
+}

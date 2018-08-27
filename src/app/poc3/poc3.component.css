@@ -1,0 +1,23 @@
+span.ui-menuitem-icon {
+    position: absolute !important;
+    right: 16px !important;
+}
+.toggle-wrapper {
+    background: #0273d4;
+    color: #fff;
+    border-top: 1px solid #2163c7;
+    padding: 12px;
+    -webkit-box-shadow: 0 0.1em 1.5em rgba(84,85,85,.5);
+        box-shadow: 0 0.1em 1.5em rgba(84,85,85,.5)
+}
+.fas.fa-bars {
+    cursor: pointer;
+    font-size: 24px;
+}
+.menu-desc {
+    max-width: 600px;
+    margin: 3em auto;
+    padding: 3em 2em;
+    -webkit-box-shadow: 0 0.1em 1.5em rgba(84,85,85,.5);
+        box-shadow: 0 0.1em 1.5em rgba(84,85,85,.5)
+}

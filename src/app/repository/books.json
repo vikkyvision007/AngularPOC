@@ -1,0 +1,46 @@
+[
+    {
+        "BookId": 1,
+        "BookName": "Kathy Seirra",
+        "AuthorName": "Kathy Seirra",
+        "Publisher": "Hillman",
+        "PublishDate": "05-07-2018",
+        "BookPrice": 120.90,
+        "BookCount": 120,
+        "Availability": true,
+        "Rating": 1
+    },
+    {
+        "BookId": 2,
+        "BookName": ".net core",
+        "AuthorName": "Mayank Agarwal",
+        "Publisher": "Mayank Agarwal",
+        "PublishDate": "05-07-2018",
+        "BookPrice": 420.90,
+        "BookCount": 20,
+        "Availability": true,
+        "Rating": 3.5
+    },
+    {
+        "BookId": 3,
+        "BookName": "Angularjs",
+        "AuthorName": "Mayank Agarwal",
+        "Publisher": "Mayank Agarwal",
+        "PublishDate": "05-07-2018",
+        "BookPrice": 420.90,
+        "BookCount": 20,
+        "Availability": true,
+        "Rating": 2
+    },
+    {
+        "BookId": 4,
+        "BookName": "Angular-6",
+        "AuthorName": "Mayank Agarwal",
+        "Publisher": "Mayank Agarwal",
+        "PublishDate": "05-07-2018",
+        "BookPrice": 420.90,
+        "BookCount": 20,
+        "Availability": true,
+        "Rating": 3
+    }
+]

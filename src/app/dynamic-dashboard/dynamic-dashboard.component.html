@@ -1,0 +1,11 @@
+<div class="drag-boundary" id="drag-resize-container" [ngClass]="{ 'top-b': !edge?.top, 'bottom-b': !edge?.bottom, 'left-b': !edge?.left, 'right-b': !edge?.right }" #myBounds>
+<div ngDraggable [handle]="DemoHandle" class="card" *ngFor="let item of cardList" ngResizable 
+[zIndexMoving]="99999"
+[zIndex]="1000" rzContainment="#drag-resize-container" rzHandles="all"
+(edge)="checkEdge($event)" [bounds]="myBounds" [inBounds]="inBounds">
+  <h6 #DemoHandle class="cheader">{{item.data.BookName}}</h6>
+  <div class="card-block">
+      <ng-template card-host [item]= "item"></ng-template>
+  </div>
+</div>
+</div>

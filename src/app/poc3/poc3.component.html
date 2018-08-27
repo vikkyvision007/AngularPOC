@@ -1,0 +1,21 @@
+
+<ng-sidebar-container style="height: 100vh;">
+
+	<!-- A sidebar -->
+	<ng-sidebar [(opened)]="_opened" mode="push"
+  dock="true" dockedSize="55px" closeOnClickOutside="true"
+   showBackdrop="true" position="left">
+		<p-panelMenu [model]="items"></p-panelMenu>
+	</ng-sidebar>
+
+	<!-- Page content -->
+	<div ng-sidebar-content >
+    <div class="toggle-wrapper"><i (click)="_toggleSidebar()" class="fas fa-bars"></i></div>
+		<div class="menu-desc">
+				<p>Plugin used for Sidebar: <b>ng-sidebar</b></p>
+				<p>Plugin used for Sidebar menu : <b>primeng</b></p>
+		</div>
+	</div>
+  
+
+</ng-sidebar-container>
