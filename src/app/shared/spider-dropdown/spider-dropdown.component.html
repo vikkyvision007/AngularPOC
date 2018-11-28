@@ -1,0 +1,6 @@
+<i class="fas fa-cog fa-lg positioning" aria-haspopup="true" aria-expanded="false" (click)="active=!active"></i>
+<div class="dd-list" [ngClass]="active ? 'd-block' : 'd-none'">
+  <a class="dropdown-item" href="javascript: void(0);" (click)="actionItem($event)">Action</a>
+  <a class="dropdown-item" href="javascript: void(0);" (click)="actionItem($event)">Another action</a>
+  <a class="dropdown-item" href="javascript: void(0);" (click)="actionItem($event)">Something else here</a>
+</div>

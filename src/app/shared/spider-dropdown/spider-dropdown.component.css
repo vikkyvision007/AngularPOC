@@ -1,0 +1,22 @@
+
+i.fas{
+    color: #fff;
+    padding: 10px 10px 12px 5px;
+    background: linear-gradient(#0273d4, #2595f5);
+}
+i.fas:hover{
+    color: black;
+    cursor: pointer;
+}
+.dd-list{
+    position: absolute;
+    background: #fff;
+-webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.1);
+box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.1);
+    top: 37px;
+    right: 0;
+}
+.dropdown-item{
+    cursor: pointer;
+}
