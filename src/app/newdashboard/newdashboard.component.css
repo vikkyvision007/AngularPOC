@@ -39,3 +39,15 @@
     min-height: 100vh;
     background: #ececec;
 }
+.wd-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+}
+.wd-header h6{
+    flex-grow: 1;
+    margin: 0;
+    }
+
+

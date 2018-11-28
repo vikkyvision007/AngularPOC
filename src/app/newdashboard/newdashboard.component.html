@@ -3,8 +3,12 @@
 [zIndexMoving]="99999"
 [zIndex]="1000" rzContainment="#drag-resize-container" rzHandles="all"
 (edge)="checkEdge($event)" [bounds]="myBounds" [inBounds]="inBounds">
-  <h6 #DemoHandle class="cheader">{{item.BookName}}</h6>
+  <div class="wd-header">
+    <h6 #DemoHandle class="cheader">{{item.BookName}}</h6>
+    <app-spider-dropdown></app-spider-dropdown>
+  </div>
   <div class="card-block">
+    
             <div class="cdesc">
               <p><i class="far fa-address-book"></i>
                 {{item.AuthorName}}
