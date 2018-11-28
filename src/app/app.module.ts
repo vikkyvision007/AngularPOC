@@ -28,6 +28,7 @@ import { ColumnChartComponent } from './column-chart/column-chart.component';
 import { TimelineChartComponent } from './timeline-chart/timeline-chart.component';
 import { LineChartComponent } from './line-chart/line-chart.component';
 import { ComboChartComponent } from './combo-chart/combo-chart.component';
+import { SharedModule } from './shared.module';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { ComboChartComponent } from './combo-chart/combo-chart.component';
     DialogModule,
     NgDraggableWidgetModule,
     Ng2GoogleChartsModule,
+    SharedModule,
     SidebarModule.forRoot()
   ],
   providers: [BookService, CardService],
