@@ -1,4 +1,5 @@
 AppComponent.html
+https://medium.com/@amcdnl/theming-angular-with-css-variables-3c78a5b20b24
 https://stackblitz.com/edit/angular-themeing
 <!--The content below is only a placeholder and can be replaced.-->
 <div theme style="text-align:center">
