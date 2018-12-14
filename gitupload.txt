@@ -2,4 +2,10 @@
 https://medium.com/@amcdnl/theming-angular-with-css-variables-3c78a5b20b24
 https://stackblitz.com/edit/angular-themeing
 
+-webkit-mask: url(star.svg) no-repeat 100% 100%;
+  mask: url(star.svg) no-repeat 100% 100%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: yellow;
+
 
